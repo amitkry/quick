@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: black;
+    font-size: 30px;
+}
+#fir{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#sec{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.big{
+    display: flex;
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    width: 70%;
+    color: white;
+    background-color: black;
+}
+.nav{
+    height: 100vh;
+    width: 30%;
+    padding: 5%;
+    color: white;
+    background-color: navy;
+}
+.option{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+div.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+#begin{
+    font-size: larger;
+    padding: 10px;
+    color:yellow;
+    margin-top: 40px;
+    font-weight: bolder;
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px yellow;
+}

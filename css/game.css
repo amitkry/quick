@@ -1,0 +1,185 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        height: 100vh;
+        margin-top: 70px;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+        font-size: 3rem;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .timer,
+    .errors,
+    .accuracy,
+    .cpm,
+    .wpm {
+        background-color: orange;
+        height: 60px;
+        width: 70px;
+        margin: 8px;
+        padding: 12px;
+        border-radius: 20%;
+        box-shadow: green 5px 8px 5px;
+    }
+
+    .cpm,
+    .wpm {
+        display: none;
+    }
+
+    .header_text {
+        text-transform: uppercase;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+    .curr_time,
+    .curr_errors,
+    .curr_accuracy,
+    .curr_cpm,
+    .curr_wpm {
+        font-size: 2.75rem;
+    }
+
+    .quote {
+        background-color: yellow;
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 25px;
+        box-shadow: black 5px 8px 5px;
+    }
+
+    .input_area {
+        background-color: #f5f5c6;
+        height: 80px;
+        width: 40%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 15px;
+        padding: 20px;
+        border: 0px;
+        box-shadow: black 5px 8px 5px;
+    }
+
+    .restart_btn {
+        display: none;
+        background-color: red;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 10px;
+        border: 0px;
+        box-shadow: black 5px 8px 5px;
+    }
+
+    .add {
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+
+        font-weight: bold;
+        color: yellow;
+        font-size: 1.5rem;
+        padding: 10px;
+        border: 0px;
+        border-radius: 50%;
+        box-shadow: black 5px 8px 5px;
+    }
+
+    .incorrect_char {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .correct_char {
+        color: darkgreen;
+    }
+
+    .main_container {
+        display: flex;
+    }
+
+    .container2 {
+        padding-top: 40px;
+        display: none;
+        background-color: greenyellow;
+        width: 25%;
+        height: 100vh;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    input[type=number] {
+        width: 40%;
+        padding: 12px;
+        margin: 8px 0px;
+
+        text-align: center;
+        font-size: larger;
+        border-radius: 100%;
+        background-color: rgb(199, 166, 230);
+        color: red;
+        text-shadow: 1px 1px 1px black;
+        box-sizing: border-box;
+
+        position: relative;
+        transform: translate(10%, -40%);
+    }
+
+    input[type=submit] {
+        font-size: larger;
+        margin-top: 40px;
+        color: yellow;
+        background-color: green;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 10px;
+        border: 0px;
+        box-shadow: black 5px 5px 10px;
+        border-radius: 20px;
+
+
+    }
+
+    input[type=reset] {
+        font-size: larger;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 20px;
+        color: yellow;
+        background-color: red;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 10px;
+        border: 0px;
+        box-shadow: black 5px 5px 10px;
+
+
+    }
+
+    .att {
+        float: left;
+        clear: left;
+        margin-left: 50px;
+    }

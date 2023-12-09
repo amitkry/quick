@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: black;
+    font-size: 30px;
+}
+#fir{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#sec{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.big{
+    display: flex;
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    width: 70%;
+    color: white;
+    background-color: black;
+
+    overflow: auto;
+    /* position: fixed; */
+}
+.nav{
+    height: 100vh;
+    width: 30%;
+    padding: 5%;
+    color: white;
+    background-color: navy;
+    
+    /* changes in imporove.html */
+    /* position: fixed; */
+}
+.option{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.content1{
+    position: relative;
+    top: 50%;
+}
+/* About_quick.html */
+div.inside_content1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+}
+
+/* Improve.html */
+div.inside_content{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -9%);
+    text-align: justify;
+}
+#begin{
+    font-size: larger;
+    padding: 10px;
+    color:yellow;
+    margin-top: 40px;
+    font-weight: bolder;
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px yellow;
+}
